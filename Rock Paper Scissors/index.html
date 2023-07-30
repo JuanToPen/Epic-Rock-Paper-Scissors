@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <div id="titleAndScore">
+        <h1 id="title">ROCK PAPER SCISSORS</h1>
+        <div id="scoreContainer" class="scoreContainerAnimation">
+            <div id="score" class="scoreAnimation">
+                <span id="playerScoreDisplay">0</span> - <span id="computerScoreDisplay">0</span>
+            </div>
+        </div>
+    </div>
+    <div id="startPage">
+    <h1 id="choose">CHOOSE</h1>
+        <div id="options">
+            <img class="options" id="rock" src="https://static.wikia.nocookie.net/prowrestling/images/a/ad/Wwe_the_rock_png_by_double_a1698_day9ylt-pre_%281%29.png/revision/latest?cb=20190225014047">
+            <img class="options" id="paper" src="https://pbs.twimg.com/media/E7KgymsXoAMSnTx.jpg">
+            <img class="options" id="scissors" src="https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg">
+        </div>
+    </div>
+    </div>
+    <audio id="fatality" src="Fatality.mp3"></audio>
+    <audio id="victoryTheme" src="Victory Theme.mp3"></audio>
+    <audio id="fight" src="Fight.mp3"></audio>
+    <audio id="laugh" src="Laugh.mp3"></audio>
+    <div id="modal">
+    <img class="modalItems" id="clown" src="https://previews.123rf.com/images/alexraths/alexraths1501/alexraths150100039/35560657-portrait-of-a-smiling-clown-isolated-on-white.jpg">
+    <img class="modalItems" id="fightTitle" src="https://cdn140.picsart.com/236371733105212.png?to=crop&type=webp&r=540x179&q=85">
+    <img class="modalItems" id="evilComputer" src="https://media.istockphoto.com/id/531085441/vector/evil-computer-monitor.jpg?s=612x612&w=0&k=20&c=WkDjMrfARjmnzHwhfLLIAZBKuECY3UZ_dzWPtw1r5pU=">
+    </div>
+    <div class="victoryScreens" id="rockPlayerWin">
+        <p class="winTitle">YOU WIN</p>
+        <p class="plusOne">+1</p>
+        <img class="rockVictory" src="https://i1.sndcdn.com/artworks-a935YgG1ImjsiNn3-ZQfvpg-t500x500.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class="victoryScreens" id="rockComputerWin">
+        <p class="winTitle">YOU LOSE</p>
+        <img class="rockVictory" src="https://i1.sndcdn.com/artworks-a935YgG1ImjsiNn3-ZQfvpg-t500x500.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class="victoryScreens"  id="paperPlayerWin">
+        <p class="winTitle">YOU WIN</p>
+        <p class="plusOne">+1</p>
+        <img class="paperVictory" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/08/21/16295780712511.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class="victoryScreens" id="paperComputerWin">
+        <p class="winTitle">YOU LOSE</p>
+        <img class="paperVictory" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/08/21/16295780712511.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class="victoryScreens" id="scissorsPlayerWin">
+        <p class="winTitle">YOU WIN</p>
+        <p class="plusOne">+1</p>
+        <img class="scissorsVictory" src="https://previews.123rf.com/images/nektarstock/nektarstock1901/nektarstock190100008/116306912-two-young-women-looking-at-each-other-eye-to-eye-and-making-a-heart-shape-hand-gesture.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class="victoryScreens" id="scissorsComputerWin">
+        <p class="winTitle">YOU LOSE</p>
+        <img class="scissorsVictory" src="https://previews.123rf.com/images/nektarstock/nektarstock1901/nektarstock190100008/116306912-two-young-women-looking-at-each-other-eye-to-eye-and-making-a-heart-shape-hand-gesture.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class="tieScreens" id="rockTie">
+        <p class="tieTitle">TIE</p>
+        <div id="even">
+            <img class="rockVictoryTie" src="https://i1.sndcdn.com/artworks-a935YgG1ImjsiNn3-ZQfvpg-t500x500.jpg">
+            <img class="rockVictoryTie" src="https://i1.sndcdn.com/artworks-a935YgG1ImjsiNn3-ZQfvpg-t500x500.jpg">
+        </div>
+        <button class="playAgain" id="playAgainTie">PLAY AGAIN</button>
+    </div>
+    <div class="tieScreens" id="paperTie">
+        <p class="tieTitle">TIE</p>
+        <div id="even">
+            <img class="paperVictory" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/08/21/16295780712511.jpg">
+            <div class="space"></div>
+            <img class="paperVictory" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/08/21/16295780712511.jpg">
+        </div>
+        <button class="playAgain" id="playAgainTie">PLAY AGAIN</button>
+    </div>
+    <div class="tieScreens" id="scissorsTie">
+        <p class="winTitle">TIE</p>
+        <img class="scissorsVictory" src="https://i.ytimg.com/vi/D_1vnE3ON_I/hqdefault.jpg">
+        <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <script src = "index.js"> </script>
+</body>
+</html>

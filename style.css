@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+#rock{
+    width: 25%;
+    height: 25%;
+    border-radius: 1.5em;
+    padding: 2vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1vw;
+}
+
+.scoreAnimation{
+    text-align: center;
+    color: white;
+    border-style:dashed;
+    border-color: rgb(255, 255, 255);
+    width: 20%;
+    font-size: 2.5em;
+    background: linear-gradient(#ff0000, #ff9900);
+    font-family: title;
+}
+
+.scoreAnimation2{
+    margin-top: 2vh;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style:dashed;
+    border-color: rgb(255, 255, 255);
+    width: 20%;
+    font-size: 2.5em;
+    background: linear-gradient(#ff0000, #ff9900);
+    font-family: title;
+}
+
+.scoreContainerAnimation{
+    opacity: 0;
+    display: none;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.scoreContainerAnimation2{
+    width: 75%;
+    opacity:1;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:2vh;
+}
+
+#title{
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 110, 255));
+    border-radius: 5px;
+    padding: 1vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-family: title;
+    display:flex;
+    justify-content: center;
+    width:25%;
+    font-size: 2em;
+}
+
+.titleAndScore{
+    display: flex;
+    margin-bottom:2vh;
+}
+
+#paper{
+    width: 35%;
+    height: 35%;
+    border-radius: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 1vw;
+}
+
+#startPage{
+    text-align: center;
+    margin-top: 3vh;
+    transform: translate(60%,0);
+    width: 45%;
+    height: 45%;
+}
+
+#choose{
+    border-radius: 10px;
+    background-color: white;
+    font-family: title;
+    font-size: 4em;
+    margin-bottom: 2vh;
+    font-weight: 100;
+}
+
+#choose:hover{ 
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+#options{
+    border-radius: 20px;
+    background-color: rgb(121, 121, 255);
+    padding: 2vw;
+}
+
+#rock:hover{ 
+    transition:transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+#paper:hover{ 
+    transition:transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+#scissors{
+    width: 45%;
+    height: 45%;
+    border-radius: 1em;
+    margin-top: 2vh;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:1vw;
+}
+
+#scissors:hover{ 
+    transition:transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+#fightTitle{
+    height:15%;
+    width:30%;
+}
+
+#clown{
+    width: 25%;
+    border-radius: 3em;
+}
+
+#modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modalDisappear{
+    opacity: 0;
+    transition:opacity 2s;
+}
+
+.fightTitleAnimation{
+    transform: translate(0,-50vh);
+    transition: transform 2s;
+}
+
+#evilComputer{
+    width:20%;
+    background-color: white;
+    padding:7vh 2vw;
+    border-radius: 4em;
+}
+
+.fightBackgrounds{
+    opacity: 0;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.transition{
+    opacity: 1;
+    transition: opacity 2s ease-in; 
+}
+
+.victoryScreens{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playAgain{
+    margin-top: 5vh;
+    font-family: title;
+    font-size: 2.5em;
+    padding: 1.5vw;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: white;
+    background:linear-gradient(#ff0000, #ff9900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.playAgain:hover{
+    background:linear-gradient(#ff0000, #ff9900);
+    color: white;
+    border-style: dashed;
+}
+
+.rockVictory{
+    height:56%;
+    width:35%;
+}
+
+.paperVictory{
+    height:50%;
+    width:50%;
+}
+
+.scissorsVictory{
+    height:50%;
+    width:40%;
+}
+
+.winTitle{
+    font-family: win;
+    font-size: 5em;
+    background:linear-gradient(#fd3232, #530000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.tieTitle{
+    margin-top: 10vh;
+    font-family: win;
+    font-size: 5em;
+    background:linear-gradient(#fd3232, #530000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.victoryScreens{
+    display: none;
+}
+
+.tieScreens{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.900);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rockVictoryTie{
+    height:75%;
+    width:35%;
+}
+
+#playAgainTie{
+    margin-bottom: 5vh;
+    font-family: title;
+    font-size: 2.5em;
+    padding: 1.5vw;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: white;
+    background:linear-gradient(#ff0000, #ff9900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#playAgainTie:hover{
+    background:linear-gradient(#ff0000, #ff9900);
+    color: white;
+    border-style: dashed;
+}
+
+#even{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:65%;
+    height: 85%;
+}
+
+.space{
+    margin:0 10vh;
+}
+
+.plusOne{
+    font-family: win;
+    font-size: 3em;
+    background:linear-gradient(#fd3232, #530000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+
+@font-face {
+    font-family:title;
+    src: url(mk1.ttf);
+}
+
+@font-face {
+    font-family:choose;
+    src: url(mkmyth.ttf);
+}
+
+@font-face {
+    font-family:win;
+    src: url(mortalkombat2.ttf);
+}

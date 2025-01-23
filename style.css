@@ -124,8 +124,8 @@ body{
 }
 
 #scissors{
-    width: 45%;
-    height: 45%;
+    width: 25%;
+    height: 25%;
     border-radius: 1em;
     margin-top: 2vh;
     display: inline-block;

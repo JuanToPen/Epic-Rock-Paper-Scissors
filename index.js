@@ -97,7 +97,7 @@ function appearFightPage (){
                 let scissorsImage = document.createElement("img")
                 scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
-                scissorsImage.style.width = "25%"
+                scissorsImage.style.width = "13%"
                 scissorsImage.style.borderRadius = "1em"
                 scissorsImage.setAttribute("id","scissorsPlayer")
                 mazeContainer.appendChild(scissorsImage) 
@@ -124,7 +124,7 @@ function appearFightPage (){
                     let scissorsImage = document.createElement("img")
                     scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
-                    scissorsImage.style.width = "25%"
+                    scissorsImage.style.width = "13%"
                     scissorsImage.style.borderRadius = "1em"
                     scissorsImage.setAttribute("id","scissorsComputer")
                     mazeContainer.appendChild(scissorsImage) 
@@ -164,7 +164,7 @@ function appearFightPage (){
                 let scissorsImage = document.createElement("img")
                 scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
-                scissorsImage.style.width = "25%"
+                scissorsImage.style.width = "13%"
                 scissorsImage.style.borderRadius = "1em"
                 scissorsImage.setAttribute("id","scissorsPlayer")
                 sandContainer.appendChild(scissorsImage) 
@@ -191,7 +191,7 @@ function appearFightPage (){
                     let scissorsImage = document.createElement("img")
                     scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
-                    scissorsImage.style.width = "25%"
+                    scissorsImage.style.width = "13%"
                     scissorsImage.style.borderRadius = "1em"
                     scissorsImage.setAttribute("id","scissorsComputer")
                     sandContainer.appendChild(scissorsImage) 
@@ -231,7 +231,7 @@ function appearFightPage (){
                 let scissorsImage = document.createElement("img")
                 scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
-                scissorsImage.style.width = "25%"
+                scissorsImage.style.width = "13%"
                 scissorsImage.style.borderRadius = "1em"
                 scissorsImage.setAttribute("id","scissorsPlayer")
                 royalContainer.appendChild(scissorsImage) 
@@ -258,7 +258,7 @@ function appearFightPage (){
                     let scissorsImage = document.createElement("img")
                     scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
-                    scissorsImage.style.width = "25%"
+                    scissorsImage.style.width = "13%"
                     scissorsImage.style.borderRadius = "1em"
                     scissorsImage.setAttribute("id","scissorsComputer")
                     royalContainer.appendChild(scissorsImage) 
@@ -298,7 +298,7 @@ function appearFightPage (){
                 let scissorsImage = document.createElement("img")
                 scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
-                scissorsImage.style.width = "25%"
+                scissorsImage.style.width = "13%"
                 scissorsImage.style.borderRadius = "1em"
                 scissorsImage.setAttribute("id","scissorsPlayer")
                 dragonsContainer.appendChild(scissorsImage) 
@@ -325,7 +325,7 @@ function appearFightPage (){
                     let scissorsImage = document.createElement("img")
                     scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
-                    scissorsImage.style.width = "25%"
+                    scissorsImage.style.width = "13%"
                     scissorsImage.style.borderRadius = "1em"
                     scissorsImage.setAttribute("id","scissorsComputer")
                     dragonsContainer.appendChild(scissorsImage) 
@@ -365,7 +365,7 @@ function appearFightPage (){
                 let scissorsImage = document.createElement("img")
                 scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
-                scissorsImage.style.width = "25%"
+                scissorsImage.style.width = "13%"
                 scissorsImage.style.borderRadius = "1em"
                 scissorsImage.setAttribute("id","scissorsPlayer")
                 nightContainer.appendChild(scissorsImage) 
@@ -392,7 +392,7 @@ function appearFightPage (){
                     let scissorsImage = document.createElement("img")
                     scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
-                    scissorsImage.style.width = "25%"
+                    scissorsImage.style.width = "13%"
                     scissorsImage.style.borderRadius = "1em"
                     scissorsImage.setAttribute("id","scissorsComputer")
                     nightContainer.appendChild(scissorsImage) 
@@ -432,7 +432,7 @@ function appearFightPage (){
                 let scissorsImage = document.createElement("img")
                 scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
-                scissorsImage.style.width = "25%"
+                scissorsImage.style.width = "13%"
                 scissorsImage.style.borderRadius = "1em"
                 scissorsImage.setAttribute("id","scissorsPlayer")
                 swordContainer.appendChild(scissorsImage) 
@@ -459,7 +459,7 @@ function appearFightPage (){
                     let scissorsImage = document.createElement("img")
                     scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
-                    scissorsImage.style.width = "25%"
+                    scissorsImage.style.width = "13%"
                     scissorsImage.style.borderRadius = "1em"
                     scissorsImage.setAttribute("id","scissorsComputer")
                     swordContainer.appendChild(scissorsImage) 

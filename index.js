@@ -95,7 +95,7 @@ function appearFightPage (){
                 mazeContainer.appendChild(paperImage)
             }else{
                 let scissorsImage = document.createElement("img")
-                scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
                 scissorsImage.style.width = "25%"
                 scissorsImage.style.borderRadius = "1em"
@@ -122,7 +122,7 @@ function appearFightPage (){
                     break;
                 default:
                     let scissorsImage = document.createElement("img")
-                    scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                    scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
                     scissorsImage.style.width = "25%"
                     scissorsImage.style.borderRadius = "1em"
@@ -162,7 +162,7 @@ function appearFightPage (){
                 sandContainer.appendChild(paperImage)
             }else{
                 let scissorsImage = document.createElement("img")
-                scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
                 scissorsImage.style.width = "25%"
                 scissorsImage.style.borderRadius = "1em"
@@ -189,7 +189,7 @@ function appearFightPage (){
                     break;
                 default:
                     let scissorsImage = document.createElement("img")
-                    scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                    scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
                     scissorsImage.style.width = "25%"
                     scissorsImage.style.borderRadius = "1em"
@@ -229,7 +229,7 @@ function appearFightPage (){
                 royalContainer.appendChild(paperImage)
             }else{
                 let scissorsImage = document.createElement("img")
-                scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
                 scissorsImage.style.width = "25%"
                 scissorsImage.style.borderRadius = "1em"
@@ -256,7 +256,7 @@ function appearFightPage (){
                     break;
                 default:
                     let scissorsImage = document.createElement("img")
-                    scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                    scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
                     scissorsImage.style.width = "25%"
                     scissorsImage.style.borderRadius = "1em"
@@ -296,7 +296,7 @@ function appearFightPage (){
                 dragonsContainer.appendChild(paperImage)
             }else{
                 let scissorsImage = document.createElement("img")
-                scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
                 scissorsImage.style.width = "25%"
                 scissorsImage.style.borderRadius = "1em"
@@ -323,7 +323,7 @@ function appearFightPage (){
                     break;
                 default:
                     let scissorsImage = document.createElement("img")
-                    scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                    scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
                     scissorsImage.style.width = "25%"
                     scissorsImage.style.borderRadius = "1em"
@@ -363,7 +363,7 @@ function appearFightPage (){
                 nightContainer.appendChild(paperImage)
             }else{
                 let scissorsImage = document.createElement("img")
-                scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
                 scissorsImage.style.width = "25%"
                 scissorsImage.style.borderRadius = "1em"
@@ -390,7 +390,7 @@ function appearFightPage (){
                     break;
                 default:
                     let scissorsImage = document.createElement("img")
-                    scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                    scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
                     scissorsImage.style.width = "25%"
                     scissorsImage.style.borderRadius = "1em"
@@ -430,7 +430,7 @@ function appearFightPage (){
                 swordContainer.appendChild(paperImage)
             }else{
                 let scissorsImage = document.createElement("img")
-                scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                 scissorsImage.style.height = "40%"
                 scissorsImage.style.width = "25%"
                 scissorsImage.style.borderRadius = "1em"
@@ -457,7 +457,7 @@ function appearFightPage (){
                     break;
                 default:
                     let scissorsImage = document.createElement("img")
-                    scissorsImage.src = "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1909/lightfieldstudios190913705/130116694-two-lesbians-holding-hands-and-looking-at-each-other-in-bedroom.jpg"
+                    scissorsImage.src = "https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l1200.jpg"
                     scissorsImage.style.height = "40%"
                     scissorsImage.style.width = "25%"
                     scissorsImage.style.borderRadius = "1em"
